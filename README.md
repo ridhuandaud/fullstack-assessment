@@ -1,4 +1,4 @@
-# grocery-app - Solution for Assessment 2
+# Grocery-app - Assessment
 
 # Question
 
