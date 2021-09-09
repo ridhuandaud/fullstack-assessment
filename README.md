@@ -20,15 +20,15 @@ In this assessment, you will be required to demonstrate your understanding on:
     * Product Name
 
 2. List of Groceries
-    a. Create a screen that display a list of 20 products by default, with the Product Name arranged in alphabetical order
-    b. Options to sort grocery list by Brand or Product Name from A-Z and Z-A
-    c. Each product in the grocery list should display the following:
+    * Create a screen that display a list of 20 products by default, with the Product Name arranged in alphabetical order
+    * Options to sort grocery list by Brand or Product Name from A-Z and Z-A
+    * Each product in the grocery list should display the following:
         * UPC12 Barcode
         * Brand
         * Product Name
         * Edit button (that will lead to Page 2)
-    d. Search result should include all possibilities based on keywords found in Brand or Product Name fields
-    e. You may use GET or POST methods for the search
+    * Search result should include all possibilities based on keywords found in Brand or Product Name fields
+    * You may use GET or POST methods for the search
 
 
 ## Page 2
