@@ -16,8 +16,8 @@ In this assessment, you will be required to demonstrate your understanding on:
 ## Page 1
 
 1. Search form (mandatory fields)
-    a. Brand
-    b. Product Name
+    * Brand
+    * Product Name
 
 2. List of Groceries
     a. Create a screen that display a list of 20 products by default, with the Product Name arranged in alphabetical order
