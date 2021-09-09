@@ -1,8 +1,15 @@
-# Grocery-app - Assessment
+# Grocery-app - Fullstack Assessment
 
-# Question
+In this assessment, you will be required to demonstrate your understanding on:
 
-REQUIREMENTS:
+1. Developing CRUD features with REST APIs.
+2. MVC code structure
+3. Usage of any backend frameworks
+4. Performing validations and showing error messages appropriately.
+5. Integration with third-party libraries.
+6. Implementing best practises and clean codes, e.g. reusable codes that can be used repetitively, in different screens, projects, or by other team members.
+
+# REQUIREMENTS
 
 Page 1
 
@@ -11,7 +18,7 @@ Page 1
     2. Product Name
 
 2. List of Groceries
-    1. Display a list of 20 products by default, with the Product Name arranged in alphabetical order
+    1. Create a screen that display a list of 20 products by default, with the Product Name arranged in alphabetical order
     2. Options to sort grocery list by Brand or Product Name from A-Z and Z-A
     3. Each product in the grocery list should display the following:
         * UPC12 Barcode
@@ -73,3 +80,6 @@ Page 2
 6. Never expose bower.json / package.json. The world doesn't need to know what packages you're using and neither should you tell them. Move `bower.json` out of the `public` directory and add a static path to the `bower_components` folder in express. 
 
     `app.use('/bower_components', express.static(__dirname + '/bower_components'));`
+    
+# Submission
+The project codes must be uploaded onto an online GIT repository (e.g Github, Bitbucket, Gitlab) and shared with us for final review. Please use .gitignore to avoid uploading unnecessary files to the repo. Upload all screenshots in your README file.
