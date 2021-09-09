@@ -2,34 +2,36 @@
 
 In this assessment, you will be required to demonstrate your understanding on:
 
-1. Developing CRUD features with REST APIs.
-2. MVC code structure
-3. Usage of any backend frameworks
-4. Performing validations and showing error messages appropriately.
-5. Integration with third-party libraries.
-6. Implementing best practises and clean codes, e.g. reusable codes that can be used repetitively, in different screens, projects, or by other team members.
+1. Developing CRUD features with REST APIs. 
+2. Performing validations and showing error messages appropriately.
+3. Integration with third-party libraries.
+4. Implementing best practises and clean codes, e.g. reusable codes that can be used repetitively, in different screens, projects, or by other team members.
 
-# Requirements
+# Tech Requirements
+1. Develop frontend with ReactJS
+2. Develop APIs with NodeJS using Express and Sequelize framework. You may use either MySQL or PostgreSQL database
 
-Page 1
+# Deliverables 
+
+## Page 1
 
 1. Search form (mandatory fields)
-    1. Brand
-    2. Product Name
+    a. Brand
+    b. Product Name
 
 2. List of Groceries
-    1. Create a screen that display a list of 20 products by default, with the Product Name arranged in alphabetical order
-    2. Options to sort grocery list by Brand or Product Name from A-Z and Z-A
-    3. Each product in the grocery list should display the following:
+    a. Create a screen that display a list of 20 products by default, with the Product Name arranged in alphabetical order
+    b. Options to sort grocery list by Brand or Product Name from A-Z and Z-A
+    c. Each product in the grocery list should display the following:
         * UPC12 Barcode
         * Brand
         * Product Name
         * Edit button (that will lead to Page 2)
-    4. Search result should include all possibilities based on keywords found in Brand or Product Name fields
-    5. You may use GET or POST methods for the search
+    d. Search result should include all possibilities based on keywords found in Brand or Product Name fields
+    e. You may use GET or POST methods for the search
 
 
-Page 2
+## Page 2
 
 1. Edit product form (mandatory fields)
     * Brand (varchar)
@@ -49,41 +51,5 @@ These are the sample mockup designs, feel free to improvise!
 <img width="650" alt="Screenshot 2021-09-09 at 2 20 50 PM" src="https://user-images.githubusercontent.com/15083795/132633896-d700a7ca-3eab-4882-adcb-22e6096d53ba.png">
 <img width="653" alt="Screenshot 2021-09-09 at 2 23 54 PM" src="https://user-images.githubusercontent.com/15083795/132633909-4efd3944-b122-459b-a3bc-1b3ebc61b74a.png">
 
- 
-# Points to note
-
-### Do not forget npm init / bower init ###
-  
-  When you work in a team, everyone should be aware of the packages that you are using and package.json / bower.json tell them what all packages does this project depend on. 
-  
-### Don't forget to add a .gitignore ###
-
-  Adding unnecessary files to your repo will increase the size of the repo such as node_modules, bower_components, .idea folder etc.
-    
-    For eg., the `.idea` folder contains meta data related to your project. like.. 
-    * data structures to access files quickly & for auto completion
-    * local history
-    * ... lots of stuff that other's probably don't need!
-    
-    These will be different for all the people working on the project. And keeping this in repo means you'll have to maintain and merge the changes to files. 
-    
-    Use any free service to generate a comprehensive gitignore file for you such as https://www.gitignore.io/
-
-### More things to take note of ###
-  
-1. Avoid using variables without declaring them with `var` - it pollutes the global scope (meaning you'll run out of variable names) and is generally considered bad for memory consumption. Believe us, this _WILL_ come to bite you  in production applications!
-
-2. Check empty form submissions. Generally a good practice and shows that you're thorough with your data validation before submitting to an API.
-
-3. Check if data is received on backend as expected and log any error messages for easier debugging. It does not make sense if you only return a 500 error and don't know why it happened. 
-
-4. `npm install` VS `npm install --save`
-
-5. Always display error messages when encountered in catch callbacks on the front end. 
-
-6. Never expose bower.json / package.json. The world doesn't need to know what packages you're using and neither should you tell them. Move `bower.json` out of the `public` directory and add a static path to the `bower_components` folder in express. 
-
-    `app.use('/bower_components', express.static(__dirname + '/bower_components'));`
-    
 # Submission
 The project codes must be uploaded onto an online GIT repository (e.g Github, Bitbucket, Gitlab) and shared with us for final review. Please use .gitignore to avoid uploading unnecessary files to the repo. Upload all screenshots in your README file.
