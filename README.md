@@ -1,4 +1,4 @@
-# Grocery-app - Fullstack Assessment
+# Fullstack Assessment
 
 In this assessment, you will be required to demonstrate your understanding on:
 
@@ -9,7 +9,7 @@ In this assessment, you will be required to demonstrate your understanding on:
 5. Integration with third-party libraries.
 6. Implementing best practises and clean codes, e.g. reusable codes that can be used repetitively, in different screens, projects, or by other team members.
 
-# REQUIREMENTS
+# Requirements
 
 Page 1
 
