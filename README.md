@@ -45,7 +45,11 @@ Page 2
     * Saving should be done by the POST or PUT method only
     * Grocery List should also reflect the changes made to the product
 
-  
+These are the sample mockup designs, feel free to improvise!
+<img width="650" alt="Screenshot 2021-09-09 at 2 20 50 PM" src="https://user-images.githubusercontent.com/15083795/132633896-d700a7ca-3eab-4882-adcb-22e6096d53ba.png">
+<img width="653" alt="Screenshot 2021-09-09 at 2 23 54 PM" src="https://user-images.githubusercontent.com/15083795/132633909-4efd3944-b122-459b-a3bc-1b3ebc61b74a.png">
+
+ 
 # Points to note
 
 ### Do not forget npm init / bower init ###
