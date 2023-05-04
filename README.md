@@ -53,3 +53,7 @@ These are the sample mockup designs, feel free to improvise!
 
 # Submission
 The project codes must be uploaded onto an online GIT repository (e.g Github, Bitbucket, Gitlab) and shared with us for final review. Please use .gitignore to avoid uploading unnecessary files to the repo. Upload all screenshots in your README file.
+
+
+# Ridhuan's Assessment Submission
+![alt text](https://github.com/ridhuandaud/fullstack-assessment/blob/master/screenshots/Screenshot%202023-05-04%20at%204.52.02%20PM.png?raw=true)
