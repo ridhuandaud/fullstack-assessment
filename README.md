@@ -57,3 +57,6 @@ The project codes must be uploaded onto an online GIT repository (e.g Github, Bi
 
 # Ridhuan's Assessment Submission
 ![alt text](https://github.com/ridhuandaud/fullstack-assessment/blob/master/screenshots/Screenshot%202023-05-04%20at%204.52.02%20PM.png?raw=true)
+![alt text](https://github.com/ridhuandaud/fullstack-assessment/blob/master/screenshots/Screenshot%202023-05-04%20at%204.52.15%20PM.png?raw=true)
+![alt text](https://github.com/ridhuandaud/fullstack-assessment/blob/master/screenshots/Screenshot%202023-05-04%20at%204.54.31%20PM.png?raw=true)
+![alt text](https://github.com/ridhuandaud/fullstack-assessment/blob/master/screenshots/Screenshot%202023-05-04%20at%204.54.40%20PM.png?raw=true)
