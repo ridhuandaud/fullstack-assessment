@@ -33,7 +33,6 @@ function CreateProduct() {
     return (
         <div className="min-h-full w-full">
             <Navbar />
-            {JSON.stringify(form)}
             <main className='m-8'>
                 {success ? (<div className="p-4 mb-4 text-sm text-green-800 rounded-lg bg-green-50" role="alert">
                     <span className="font-medium">Product has been created</span>
